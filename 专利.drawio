@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-10-07T12:50:59.948Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="22.0.4" etag="J6VW3VWBIPjdwiJuPEx-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-07T13:22:36.415Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="X_GJI5z_Xh5XNEU95nfp" version="22.0.4" type="github">
   <diagram name="第 1 页" id="m13-yIMe3YJxcXLY3Oa9">
-    <mxGraphModel>
+    <mxGraphModel dx="1492" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="173" as="sourcePoint" />
+            <mxPoint x="425" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMkhn50gOoQLXvXpX9LZ-2" target="UMkhn50gOoQLXvXpX9LZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-2" value="眼球参数获取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="250" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMkhn50gOoQLXvXpX9LZ-4" target="UMkhn50gOoQLXvXpX9LZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-4" value="参数输入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="167" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMkhn50gOoQLXvXpX9LZ-7" target="UMkhn50gOoQLXvXpX9LZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-7" value="虹膜分割计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="567" y="250" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMkhn50gOoQLXvXpX9LZ-10" target="UMkhn50gOoQLXvXpX9LZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-10" value="虹膜边界寻找" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="387" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-12" value="输出虹膜区域" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="527" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-16" value="获取眼部图像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="112" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-18" value="虹膜椭圆函数" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="346" y="334" width="78" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UMkhn50gOoQLXvXpX9LZ-24" value="跨界点积分" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="435" y="334" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
